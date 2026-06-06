@@ -1,0 +1,122 @@
+﻿========================================================
+  ORBITAL TRUST - Nucleo de Confiabilidade (SOA)
+  Evidencia de execucao  |  GS 2026  |  FIAP
+========================================================
+
+[ 1 ] dotnet build
+--------------------------------------------------------
+  Determinando os projetos a serem restaurados...
+  Todos os projetos estão atualizados para restauração.
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 1 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 2 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 3 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 4 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 5 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 6 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 7 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 8 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 9 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 10 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): error MSB3027: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Número de novas tentativas 10 excedido. Falha. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): error MSB3021: Não é possível copiar o arquivo "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+
+FALHA da compilação.
+
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 1 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 2 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 3 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 4 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 5 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 6 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 7 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 8 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 9 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): warning MSB3026: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Iniciando nova tentativa 10 em 1000ms. The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): error MSB3027: não foi possível copiar "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". Número de novas tentativas 10 excedido. Falha. O arquivo é bloqueado por: "OrbitalTrust.Api (50188)" [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+C:\Program Files\dotnet\sdk\8.0.421\Microsoft.Common.CurrentVersion.targets(5321,5): error MSB3021: Não é possível copiar o arquivo "c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\obj\Debug\net8.0\apphost.exe" para "bin\Debug\net8.0\OrbitalTrust.Api.exe". The process cannot access the file 'c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\bin\Debug\net8.0\OrbitalTrust.Api.exe' because it is being used by another process. [c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\src\OrbitalTrust.Api\OrbitalTrust.Api.csproj]
+    10 Aviso(s)
+    2 Erro(s)
+
+Tempo Decorrido 00:00:18.49
+
+
+[ 2 ] dotnet test
+--------------------------------------------------------
+Execução de teste para c:\Users\vitoka\Documents\Projetos Faculdade\orbital-trust-soa\OrbitalTrust.Nucleo\tests\OrbitalTrust.Tests\bin\Debug\net8.0\OrbitalTrust.Tests.dll (.NETCoreApp,Version=v8.0)
+1 arquivos de teste no total corresponderam ao padrão especificado.
+
+Aprovado!  – Com falha:     0, Aprovado:    15, Ignorado:     0, Total:    15, Duração: 60 ms - OrbitalTrust.Tests.dll (net8.0)
+
+
+[ 3 ] GET /api/sensores  (sensor optico + termico)
+--------------------------------------------------------
+{
+    "value":  [
+                  {
+                      "id":  "11111111-1111-1111-1111-111111111111",
+                      "nome":  "Sentinel-2 Óptico",
+                      "tipo":  0,
+                      "online":  true
+                  },
+                  {
+                      "id":  "22222222-2222-2222-2222-222222222222",
+                      "nome":  "Landsat Térmico",
+                      "tipo":  1,
+                      "online":  true
+                  }
+              ],
+    "Count":  2
+}
+
+[ 4 ] POST /api/leituras  (risco 0.92 + dado bom -> alerta forte)
+--------------------------------------------------------
+Request:
+{"sensorId":"11111111-1111-1111-1111-111111111111","tipoSensor":0,"latitude":-23.5505,"longitude":-46.6333,"coberturaNuvem":0.1,"qualidadeImagem":0.95,"confiancaAnalise":0.9,"riscoEstimado":0.92,"tipoEvento":0}
+
+Response (201):
+{
+    "id":  2,
+    "dataHora":  "2026-06-06T21:52:08.4215972Z",
+    "tipoEvento":  0,
+    "nivelRisco":  3,
+    "ico":  87.3,
+    "icoCategoria":  "ALTA",
+    "latitude":  -23.5505,
+    "longitude":  -46.6333,
+    "mensagem":  "Queimada — risco CRÍTICO, confiabilidade ALTA (ICO 87)."
+}
+
+[ 5 ] GET /api/alertas  (coordenada DESCRIPTOGRAFADA na saida)
+--------------------------------------------------------
+{
+    "value":  [
+                  {
+                      "id":  2,
+                      "dataHora":  "2026-06-06T21:52:08.4215972",
+                      "tipoEvento":  0,
+                      "nivelRisco":  3,
+                      "ico":  87.3,
+                      "icoCategoria":  "ALTA",
+                      "latitude":  -23.5505,
+                      "longitude":  -46.6333,
+                      "mensagem":  "Queimada — risco CRÍTICO, confiabilidade ALTA (ICO 87)."
+                  },
+                  {
+                      "id":  1,
+                      "dataHora":  "2026-06-06T21:51:16.1540239",
+                      "tipoEvento":  0,
+                      "nivelRisco":  3,
+                      "ico":  87.3,
+                      "icoCategoria":  "ALTA",
+                      "latitude":  -23.5505,
+                      "longitude":  -46.6333,
+                      "mensagem":  "Queimada — risco CRÍTICO, confiabilidade ALTA (ICO 87)."
+                  }
+              ],
+    "Count":  2
+}
+
+========================================================
+  Coordenada persiste criptografada (AES-256-GCM) no
+  banco e e descriptografada apenas na saida da API.
+========================================================
