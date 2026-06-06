@@ -1,0 +1,17 @@
+# Build
+bin/
+obj/
+
+# Banco SQLite (gerado em runtime)
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# IDE
+.vs/
+.idea/
+*.user
+
+# Chave de cripto real (nunca versionar)
+appsettings.Production.json
