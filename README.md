@@ -180,16 +180,21 @@ dotnet test
 
 ## 8. Evidências
 
-Os prints ficam em [`docs/evidencias/`](docs/evidencias/). Capturar:
+As evidências de execução estão em [`docs/evidencias/`](docs/evidencias/), além da
+saída completa em texto em [`output.txt`](docs/evidencias/output.txt):
 
-1. `dotnet build` com sucesso.
-2. `dotnet test` com todos os testes passando.
-3. Swagger UI mostrando os endpoints.
-4. `POST /api/leituras` (request + response `201` com o alerta).
-5. `GET /api/alertas` retornando a coordenada **descriptografada**.
-6. O arquivo `orbitaltrust.db` aberto no **DB Browser for SQLite**, mostrando a coluna
-   `CoordenadaCriptografada` como base64 ilegível — esta é a evidência do controle de Cyber:
-   **coordenada criptografada em repouso**.
+| Print                   | O que comprova                                                        |
+|-------------------------|----------------------------------------------------------------------|
+| `01-build.png`          | `dotnet build` — compilação com êxito, 0 erros                       |
+| `02-test.png`           | `dotnet test` — 15/15 testes aprovados                              |
+| `03-run.png`            | Aplicação em execução (API no ar)                                   |
+| `04-swagger-ui.png`     | Swagger UI listando os endpoints da API                             |
+| `05-post-201.png`       | `POST /api/leituras` → `201` com o alerta e o ICO calculado          |
+| `06-get-alertas.png`    | `GET /api/alertas` retornando a coordenada **descriptografada**      |
+
+> A coordenada é persistida **criptografada** (AES-256-GCM) na coluna
+> `CoordenadaCriptografada` do SQLite e só é descriptografada na saída da API
+> (`06-get-alertas`) — evidência do controle de cibersegurança integrado.
 
 ---
 
@@ -197,8 +202,8 @@ Os prints ficam em [`docs/evidencias/`](docs/evidencias/). Capturar:
 
 | Integrante         | RM                          |
 |--------------------|-----------------------------|
-| Vitor Pacifico     | RM558017                    |
+| Victor Dias        | RM558017                    |
 | Gustavo Paulino    | RM554779                    |
-| Fernando Antonio   | RM555201                    |
-| Thomas Reichmann   | RM554812                    |
 | Guilherme Abe      | RM554743                    |
+| Fernando Luiz      | RM555201                    |
+| Thomas Reichmann   | RM554812                    |
