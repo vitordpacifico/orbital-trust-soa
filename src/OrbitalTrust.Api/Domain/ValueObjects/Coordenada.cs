@@ -3,11 +3,12 @@ using OrbitalTrust.Api.Domain.Exceptions;
 namespace OrbitalTrust.Api.Domain.ValueObjects;
 
 /// <summary>
-/// VALUE OBJECT imutável (record) — representa um ponto geográfico.
-/// Valida o intervalo no construtor (invariante sempre garantida) e sabe
-/// se serializar/desserializar para persistência criptografada.
+/// VALUE OBJECT imutável (readonly record struct) — representa um ponto geográfico.
+/// Implementado como struct por ser um tipo de valor pequeno, imutável e sem identidade
+/// própria: duas coordenadas com a mesma lat/long são iguais. Valida o intervalo no
+/// construtor (invariante sempre garantida) e sabe se serializar para persistência.
 /// </summary>
-public record Coordenada
+public readonly record struct Coordenada
 {
     public double Latitude { get; }
     public double Longitude { get; }

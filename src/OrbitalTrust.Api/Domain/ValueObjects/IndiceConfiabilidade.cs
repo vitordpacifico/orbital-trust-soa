@@ -1,11 +1,12 @@
 namespace OrbitalTrust.Api.Domain.ValueObjects;
 
 /// <summary>
-/// VALUE OBJECT imutável (record) — o ICO (Índice de Confiabilidade Orbital).
+/// VALUE OBJECT imutável (readonly record struct) — o ICO (Índice de Confiabilidade Orbital).
+/// Tipo de valor: o índice não tem identidade, é definido apenas pelo seu conteúdo.
 /// Construtor privado + factory estática garantem que a Categoria seja sempre
 /// coerente com o Valor (encapsulamento da regra de classificação).
 /// </summary>
-public record IndiceConfiabilidade
+public readonly record struct IndiceConfiabilidade
 {
     public double Valor { get; }
     public string Categoria { get; }
