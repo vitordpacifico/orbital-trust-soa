@@ -8,6 +8,13 @@
 > satélite (Sentinel-2, Landsat, NASA FIRMS) com sensores visuais para gerar **alertas
 > ambientais confiáveis** sobre queimadas, desmatamento, enchentes e seca.
 
+### 🧭 Atalhos para o avaliador
+
+| Disciplina | Comece por |
+|---|---|
+| **C# (POO)** | [Mapa de requisitos de C# (seção 5)](#5-mapa-de-requisitos--onde-está-no-código) · [Testes xUnit (seção 7)](#7-testes) · [Evidências (seção 8)](#8-evidências) |
+| **SOA & WebServices** | [Arquitetura (seção 2)](#2-arquitetura) · [Endpoints da API (seção 4)](#4-endpoints) · [Mapa de requisitos de SOA (seção 5)](#5-mapa-de-requisitos--onde-está-no-código) |
+
 ---
 
 ## 1. Título e motivação
