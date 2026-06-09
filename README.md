@@ -1,6 +1,9 @@
-# Orbital Trust — Núcleo de Confiabilidade (SOA & WebServices)
+# Orbital Trust — Núcleo de Confiabilidade
 
-> Entrega da disciplina **GS — SOA e WebServices** (FIAP, Engenharia de Software, 1º sem/2026).
+> **Entrega das disciplinas C# (POO) e SOA & WebServices** — repositório único
+> (FIAP, Engenharia de Software, 1º sem/2026). O mapeamento de cada requisito de
+> cada disciplina para o código está na **[seção 5 — Mapa de requisitos](#5-mapa-de-requisitos--onde-está-no-código)**.
+>
 > Parte do projeto **Orbital Trust**, plataforma de monitoramento ambiental que cruza dados de
 > satélite (Sentinel-2, Landsat, NASA FIRMS) com sensores visuais para gerar **alertas
 > ambientais confiáveis** sobre queimadas, desmatamento, enchentes e seca.
@@ -19,9 +22,16 @@ cobertura de nuvem, a qualidade da imagem e a confiança da análise. A **regra 
 **não gritar alerta em cima de dado não-confiável**. Esse cálculo é o coração da aplicação.
 
 Esta aplicação é uma **API REST (ASP.NET Core)** que recebe leituras de sensores, calcula o
-ICO, decide se emite alerta e persiste tudo em SQLite. Ela integra o controle de
-**Cibersegurança** (criptografia AES-256-GCM do campo de coordenadas) e inclui **testes
-xUnit** para servir também à disciplina de **C#**.
+ICO, decide se emite alerta e persiste tudo em SQLite. Ela atende a **duas disciplinas** com
+um único código:
+
+- **C# (POO)** — modelagem de domínio com classe abstrata, herança e polimorfismo (sensores),
+  interfaces + injeção de dependência, Value Objects/DTOs, tratamento de exceções e testes xUnit.
+- **SOA & WebServices** — API REST com controllers, contrato OpenAPI/Swagger, camada de
+  serviços desacoplada e persistência (EF Core + SQLite).
+
+Integra ainda o controle de **Cibersegurança** (criptografia AES-256-GCM do campo de
+coordenadas). A correspondência requisito → arquivo de cada disciplina está na seção 5.
 
 ---
 
@@ -122,25 +132,30 @@ Resposta `201 Created` (coordenada já descriptografada):
 
 ## 5. Mapa de requisitos → onde está no código
 
-| Requisito da rubrica            | Onde está                                                                                     |
-|---------------------------------|-----------------------------------------------------------------------------------------------|
-| **POO / Classes**               | Todo o `Domain/`, `Services/`, `Controllers/`                                                  |
-| **Abstração (classe abstrata)** | `Domain/Entities/SensorBase.cs` (abstrata, método abstrato `CalcularConfiancaLeitura`)         |
-| **Herança**                     | `SensorOptico.cs`, `SensorTermico.cs` herdam de `SensorBase`                                   |
-| **Polimorfismo**                | `CalcularConfiancaLeitura` sobrescrito com fórmulas diferentes; testado em `SensorPolimorfismoTests` |
-| **Encapsulamento**              | `SensorBase._leiturasProcessadas` (campo privado) + `RegistrarLeituraProcessada()`            |
-| **Membro estático**             | `SensorBase.TotalLeiturasGlobais`                                                              |
-| **Value Objects**               | `Domain/ValueObjects/Coordenada.cs`, `IndiceConfiabilidade.cs` (records imutáveis + factory)   |
-| **DTOs**                        | `DTOs/LeituraInputDTO.cs`, `AlertaOutputDTO.cs`, `SensorOutputDTO.cs`                          |
-| **Interfaces**                  | `Interfaces/` (`ICalculadoraICO`, `ICryptoService`, `ILeituraRepository`, `IAlertaRepository`) |
-| **Injeção de Dependência**      | `Program.cs` (registro) + construtores de `ProcessamentoService` e dos controllers            |
-| **Exceções customizadas**       | `Domain/Exceptions/` + `Middleware/ExcecaoGlobalMiddleware.cs` (mapeia p/ status HTTP)         |
-| **DateTime**                    | `LeituraAmbiental.DataHora`, `Alerta.DataHora`; consulta ordenada por data desc nos repositórios |
-| **Lógica de negócio / fluxo**   | `Services/ProcessamentoService.cs` (pipeline + regra de ouro) e `CalculadoraICO.cs`           |
-| **WebService / API REST**       | `Controllers/` (`[ApiController]`, controllers — não Minimal API)                              |
-| **Banco de dados**              | `Infrastructure/Data/OrbitalTrustDbContext.cs` + repositórios (EF Core 8 + SQLite)            |
-| **Tratamento de exceções**      | `Middleware/ExcecaoGlobalMiddleware.cs` → `ProblemDetails` (400 / 503 / 500)                   |
-| **Documentação / Swagger**      | `Program.cs` (`AddSwaggerGen` / `UseSwaggerUI`)                                                |
+Cada requisito das rubricas mapeado para o arquivo correspondente. A coluna
+**Disciplina** indica a quem atende: **C#** (POO), **SOA** (WebServices) ou
+**Cyber** (Cibersegurança).
+
+| Disciplina   | Requisito da rubrica            | Onde está                                                                                     |
+|:------------:|---------------------------------|-----------------------------------------------------------------------------------------------|
+| C#           | **POO / Classes**               | Todo o `Domain/`, `Services/`, `Controllers/`                                                  |
+| C#           | **Abstração (classe abstrata)** | `Domain/Entities/SensorBase.cs` (abstrata, método abstrato `CalcularConfiancaLeitura`)         |
+| C#           | **Herança**                     | `SensorOptico.cs`, `SensorTermico.cs` herdam de `SensorBase`                                   |
+| C#           | **Polimorfismo**                | `CalcularConfiancaLeitura` sobrescrito com fórmulas diferentes; testado em `SensorPolimorfismoTests` |
+| C#           | **Encapsulamento**              | `SensorBase._leiturasProcessadas` (campo privado) + `RegistrarLeituraProcessada()`            |
+| C#           | **Membro estático**             | `SensorBase.TotalLeiturasGlobais`                                                              |
+| C#           | **Value Objects (VO)**          | `Domain/ValueObjects/Coordenada.cs`, `IndiceConfiabilidade.cs` (`readonly record struct` imutáveis + factory) |
+| C#           | **DTOs**                        | `DTOs/LeituraInputDTO.cs`, `AlertaOutputDTO.cs`, `SensorOutputDTO.cs`                          |
+| C#           | **Structs / Partial**           | `Coordenada` e `IndiceConfiabilidade` são `readonly record struct`; `Program` é `partial class` (`Program.cs`) |
+| C#           | **Interfaces**                  | `Interfaces/` (`ICalculadoraICO`, `ICryptoService`, `ILeituraRepository`, `IAlertaRepository`) |
+| C#           | **Injeção de Dependência**      | `Program.cs` (registro) + construtores de `ProcessamentoService` e dos controllers            |
+| C#           | **Tratamento de exceções**      | `Domain/Exceptions/` + `Middleware/ExcecaoGlobalMiddleware.cs` → `ProblemDetails` (400 / 503 / 500) |
+| C#           | **DateTime**                    | `LeituraAmbiental.DataHora`, `Alerta.DataHora`; consulta ordenada por data desc nos repositórios |
+| C#           | **Lógica de negócio / fluxo**   | `Services/ProcessamentoService.cs` (pipeline + regra de ouro) e `CalculadoraICO.cs`           |
+| **SOA**      | **WebService / API REST**       | `Controllers/` (`[ApiController]`, controllers — não Minimal API)                              |
+| **SOA**      | **Contrato / Swagger (OpenAPI)**| `Program.cs` (`AddSwaggerGen` / `UseSwaggerUI`) — documentação navegável dos endpoints         |
+| **SOA**      | **Banco de dados**              | `Infrastructure/Data/OrbitalTrustDbContext.cs` + repositórios (EF Core 8 + SQLite)            |
+| **Cyber**    | **Criptografia AES-256-GCM**    | `Services/AesGcmCryptoService.cs` (cifra a coordenada antes de persistir)                      |
 
 ---
 
